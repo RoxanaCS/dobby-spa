@@ -1,0 +1,13 @@
+@mixin navbar-color() {
+  color: $color_text_titulo;
+  font-size: bolder;
+}
+@mixin circle() {
+  margin-top: $margin-top;
+  border: $border_img;
+}
+
+@mixin img-about() {
+  margin: $margin-img;
+  border-radius: $border-radius_img;
+}
