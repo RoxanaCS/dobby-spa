@@ -11,3 +11,10 @@
   margin: $margin-img;
   border-radius: $border-radius_img;
 }
+@mixin circle_red_social($size, $color) {
+  border-radius: 50%;
+  border: $border_img;
+  width: $size;
+  height: $size;
+  background-color: $color;
+}

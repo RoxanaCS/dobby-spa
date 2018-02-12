@@ -57,14 +57,25 @@ nav.navbar{
 .line-o:before {
   content: "";
   display: $display;
-  border-top: 1px solid #fff;
+  border-top: $border-top;
   width: 50%;
   vertical-align: middle;
 }
 .line-o2:after {
   content: "";
   display: $display;
-  border-top: 1px solid #fff;
+  border-top: $border-top;
   width: 50%;
   vertical-align: middle;
+}
+footer{
+  border-top: $border-top;
+  background-color: #2F1F1F;
+  color: $color_text_about;
+  .foot{
+    margin: $border-radius_img;
+  }
+  img{
+    @include circle_red_social(8em, $color_text_about);
+  }
 }

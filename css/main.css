@@ -5855,4 +5855,17 @@ nav.navbar {
   width: 50%;
   vertical-align: middle; }
 
+footer {
+  border-top: 1px solid #fff;
+  background-color: #2F1F1F;
+  color: #EFB361; }
+  footer .foot {
+    margin: 1em; }
+  footer img {
+    border-radius: 50%;
+    border: 0.5em solid #D9BE87;
+    width: 8em;
+    height: 8em;
+    background-color: #EFB361; }
+
 /*# sourceMappingURL=main.css.map */
