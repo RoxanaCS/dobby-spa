@@ -39,6 +39,7 @@ nav.navbar{
   border-top: 0.2em solid $color_text_about;
   background-color: $background_about;
   color: $color_text_about;
+  padding: $margin;
   img{
     border-radius: $border-radius_img;
   }
@@ -73,9 +74,9 @@ footer{
   background-color: #2F1F1F;
   color: $color_text_about;
   .foot{
-    margin: $border-radius_img;
+    margin: $margin;
   }
   img{
-    @include circle_red_social(8em, $color_text_about);
+    @include circle_red_social(7em, $color_text_about);
   }
 }

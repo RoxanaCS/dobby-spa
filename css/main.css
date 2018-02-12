@@ -5829,7 +5829,8 @@ nav.navbar {
 .about {
   border-top: 0.2em solid #EFB361;
   background-color: #4A3A3A;
-  color: #EFB361; }
+  color: #EFB361;
+  padding: 5em; }
   .about img {
     border-radius: 1em; }
   .about .line-o {
@@ -5860,12 +5861,12 @@ footer {
   background-color: #2F1F1F;
   color: #EFB361; }
   footer .foot {
-    margin: 1em; }
+    margin: 5em; }
   footer img {
     border-radius: 50%;
     border: 0.5em solid #D9BE87;
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     background-color: #EFB361; }
 
 /*# sourceMappingURL=main.css.map */
